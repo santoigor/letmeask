@@ -13,6 +13,15 @@
             > img {
                 max-height:  45px;
             }
+
+            >div {
+                display: flex;
+                gap: 16px; // Dá um espaço entre elementos que estão "dentro" de um display flex ou grid
+
+                button {
+                    height: 40px;
+                }
+            }
         }
     }
 
